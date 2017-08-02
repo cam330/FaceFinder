@@ -14,6 +14,7 @@
 		3270A3411F312C6A00BECEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3270A3401F312C6A00BECEE4 /* Assets.xcassets */; };
 		3270A3441F312C6A00BECEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270A3421F312C6A00BECEE4 /* LaunchScreen.storyboard */; };
 		3270A34F1F312C6B00BECEE4 /* FaceFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270A34E1F312C6B00BECEE4 /* FaceFindTests.swift */; };
+		3270A35A1F312E7000BECEE4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270A3591F312E7000BECEE4 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3270A34A1F312C6B00BECEE4 /* FaceFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3270A34E1F312C6B00BECEE4 /* FaceFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFindTests.swift; sourceTree = "<group>"; };
 		3270A3501F312C6B00BECEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3270A3591F312E7000BECEE4 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				3270A3361F312C6A00BECEE4 /* AppDelegate.swift */,
 				3270A3381F312C6A00BECEE4 /* ViewController.swift */,
 				3270A33A1F312C6A00BECEE4 /* Main.storyboard */,
+				3270A3591F312E7000BECEE4 /* CameraViewController.swift */,
 				3270A3401F312C6A00BECEE4 /* Assets.xcassets */,
 				3270A3421F312C6A00BECEE4 /* LaunchScreen.storyboard */,
 				3270A3451F312C6A00BECEE4 /* Info.plist */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3270A3391F312C6A00BECEE4 /* ViewController.swift in Sources */,
+				3270A35A1F312E7000BECEE4 /* CameraViewController.swift in Sources */,
 				3270A3371F312C6A00BECEE4 /* AppDelegate.swift in Sources */,
 				3270A33F1F312C6A00BECEE4 /* FaceFind.xcdatamodeld in Sources */,
 			);
